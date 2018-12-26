@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7167D55A21D2860F00034A07 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7167D55921D2860F00034A07 /* Task.swift */; };
 		71921AA421CBA92200EFDBF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71921AA321CBA92200EFDBF7 /* AppDelegate.swift */; };
 		71921AA621CBA92200EFDBF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71921AA521CBA92200EFDBF7 /* ViewController.swift */; };
 		71921AA921CBA92200EFDBF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71921AA721CBA92200EFDBF7 /* Main.storyboard */; };
 		71921AAB21CBA92300EFDBF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71921AAA21CBA92300EFDBF7 /* Assets.xcassets */; };
 		71921AAE21CBA92300EFDBF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71921AAC21CBA92300EFDBF7 /* LaunchScreen.storyboard */; };
+		71921AB721CBA94D00EFDBF7 /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71921AB521CBA94D00EFDBF7 /* TodoTableViewCell.swift */; };
+		71921AB821CBA94D00EFDBF7 /* TodoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71921AB621CBA94D00EFDBF7 /* TodoTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7167D55921D2860F00034A07 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		71921AA021CBA92200EFDBF7 /* reusableCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reusableCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71921AA321CBA92200EFDBF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71921AA521CBA92200EFDBF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		71921AAA21CBA92300EFDBF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71921AAD21CBA92300EFDBF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71921AAF21CBA92300EFDBF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71921AB521CBA94D00EFDBF7 /* TodoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
+		71921AB621CBA94D00EFDBF7 /* TodoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				71921AAA21CBA92300EFDBF7 /* Assets.xcassets */,
 				71921AAC21CBA92300EFDBF7 /* LaunchScreen.storyboard */,
 				71921AAF21CBA92300EFDBF7 /* Info.plist */,
+				71921AB521CBA94D00EFDBF7 /* TodoTableViewCell.swift */,
+				71921AB621CBA94D00EFDBF7 /* TodoTableViewCell.xib */,
+				7167D55921D2860F00034A07 /* Task.swift */,
 			);
 			path = reusableCell;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 				71921AAE21CBA92300EFDBF7 /* LaunchScreen.storyboard in Resources */,
 				71921AAB21CBA92300EFDBF7 /* Assets.xcassets in Resources */,
 				71921AA921CBA92200EFDBF7 /* Main.storyboard in Resources */,
+				71921AB821CBA94D00EFDBF7 /* TodoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7167D55A21D2860F00034A07 /* Task.swift in Sources */,
+				71921AB721CBA94D00EFDBF7 /* TodoTableViewCell.swift in Sources */,
 				71921AA621CBA92200EFDBF7 /* ViewController.swift in Sources */,
 				71921AA421CBA92200EFDBF7 /* AppDelegate.swift in Sources */,
 			);
@@ -283,7 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HZA79NQ8N6;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = reusableCell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,7 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HZA79NQ8N6;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = reusableCell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
